@@ -1,487 +1,634 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>
-			*|MC:SUBJECT|*
-		</title>
-		<style type="text/css">
-		/* Client-specific Styles */
-			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
-			body{width:100% !important;} /* Force Hotmail to display emails at full width */
-			body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Facebook sharing information tags -->
+    <meta property="og:title" content="*|MC:SUBJECT|*">
+    
+    <title>*|MC:SUBJECT|*</title>
+    
+<style type="text/css">
+		#outlook a{
+			padding:0;
+		}
+		body{
+			width:100% !important;
+		}
+		body{
+			-webkit-text-size-adjust:none;
+		}
+		body{
+			margin:0;
+			padding:0;
+		}
+		img{
+			border:none;
+			font-size:14px;
+			font-weight:bold;
+			height:auto;
+			line-height:100%;
+			outline:none;
+			text-decoration:none;
+			text-transform:capitalize;
+		}
+		#backgroundTable{
+			height:100% !important;
+			margin:0;
+			padding:0;
+			width:100% !important;
+		}
+		#topBar{
+			background:#444444 url(http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/black_bg.gif) repeat;
+		}
+		#topBar div{
+			font-family:sans-serif;
+			color:#FFFFFF;
+		}
+		#topBar a{
+			color:#FFFFFF;
+		}
+		.teaser div{
+			font-size:14px;
+			text-align:left;
+		}
+		.archive div,.archive div a:link,.archive div a:visited{
+			font-size:11px;
+			text-align:right;
+			text-decoration:none;
+		}
+		#headlineBar{
+			background:url(http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/purple_bg.gif) repeat #563669;
+			color:#FFFFFF;
+		}
+		.forward,.forward a{
+			color:#FFF;
+			text-decoration:none;
+			line-height:130%;
+			font-size:11px;
+			font-family:sans-serif;
+		}
+		.byline{
+			font-family:sans-serif;
+			font-size:18px;
+			line-height:130%;
+			text-align:left;
+			color:#FFFFFF;
+		}
+		.secondaryContent .byline,.secondaryContent .byline a{
+			color:#666666;
+			text-decoration:none;
+		}
+		h1{
+			font-family:Georgia, serif;
+			font-size:36px;
+			font-weight:normal;
+			line-height:150%;
+			text-align:left;
+			margin:0;
+			margin-top:5px;
+			margin-bottom:10px;
+			padding:0;
+			color:#FFFFFF;
+		}
+		h2{
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:13px;
+			font-weight:bold;
+			line-height:100%;
+			text-align:left;
+			margin:0;
+			padding:0;
+			color:#4E2C66;
+			text-transform:uppercase;
+			letter-spacing:4px;
+		}
+		h3{
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:13px;
+			font-weight:bold;
+			line-height:100%;
+			text-align:left;
+			margin:0;
+			padding:0;
+			color:#FFFFFF;
+			text-transform:uppercase;
+			letter-spacing:5px;
+		}
+		h4{
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:14px;
+			font-weight:bold;
+			line-height:250%;
+			text-align:left;
+			margin:0;
+			padding:0;
+			color:#333333;
+		}
+		h5{
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:14px;
+			font-weight:bold;
+			line-height:150%;
+			text-align:left;
+			margin:0;
+			margin-bottom:10px;
+			padding:0;
+			color:#333333;
+		}
+		.secondaryContent h1,.secondaryContent h1 a{
+			color:#4E2C66;
+			text-decoration:none;
+		}
+		.calendar table{
+			background-color:#FFFFFF;
+		}
+		.calendar td{
+			text-align:center;
+		}
+		.calendar span,.calendar span a,.calendar strong,.calendar strong a{
+			font-size:16px;
+			font-family:sans-serif;
+			text-decoration:none;
+			color:#4F2C66;
+		}
+		.secondaryContent .calendar table{
+			background-color:#4F2C66;
+		}
+		.secondaryContent .calendar span,.secondaryContent .calendar span a,.secondaryContent .calendar strong,.secondaryContent .calendar strong a{
+			font-size:16px;
+			font-family:sans-serif;
+			text-decoration:none;
+			color:#FFFFFF;
+		}
+		.content{
+			line-height:160%;
+			font-family:Georgia, serif;
+			font-size:14px;
+			color:#666666;
+			text-align:left;
+		}
+		.contentWhite{
+			line-height:160%;
+			font-family:Georgia, serif;
+			font-size:14px;
+			color:#FFFFFF;
+			text-align:left;
+		}
+		.contentWhite a:link,.contentWhite a:visited{
+			color:#A695B2;
+			text-decoration:none;
+		}
+		.latestNews div,.latestNews div a:link,.latestNews div a:visited{
+			line-height:100%;
+			font-family:Arial, Helvetica, sans-serif;
+			font-style:italic;
+			font-size:12px;
+			color:#4F2C66;
+			text-align:right;
+			text-decoration:none;
+		}
+		.videos div,.videos div a:link,.videos div a:visited{
+			line-height:100%;
+			font-family:Arial, Helvetica, sans-serif;
+			font-style:italic;
+			font-size:12px;
+			color:#FFFFFF;
+			text-align:right;
+			text-decoration:none;
+		}
+		.videoContent div{
+			color:#666666;
+			font-family:Georgia, serif;
+			font-size:14px;
+			line-height:150%;
+			text-align:left;
+		}
+		.videoContent div a:link,.videoContent div a:visited{
+			color:#333333;
+			font-weight:normal;
+			text-decoration:none;
+		}
+		.videoContent span,.videoContent span a:link,.videoContent span a:visited{
+			color:#4E2C66;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+			font-weight:bold;
+			text-decoration:none;
+		}
+		#directions{
+			border:1px solid #d6d6d6;
+		}
+		#directions div{
+			text-align:center;
+			font-family:sans-serif;
+			font-size:12px;
+			color:#555555;
+			line-height:160%;
+		}
+		#directions div strong,#directions div b{
+			font-size:13px;
+			font-family:sans-serif;
+		}
+		#directions .address div{
+			text-align:left;
+		}
+		#list-description{
+			font-family:sans-serif;
+			font-size:11px;
+			color:#666666;
+		}
+		#list-description a{
+			color:#4E2C66;
+			font-weight:bold;
+			text-decoration:underline;
+		}
+		#copyright{
+			font-family:sans-serif;
+			color:#666666;
+			font-size:12px;
+		}
+		.block{
+			display:block;
+		}
+		.border-right{
+			border-right:1px dotted #d6d6d6;
+		}
+		.leftColumnContent{
+			background-color:#FFFFFF;
+		}
+		.leftColumnContent div{
+			color:#666666;
+			font-family:Georgia, serif;
+			font-size:14px;
+			line-height:150%;
+			text-align:left;
+		}
+		.leftColumnContent div a:link,.leftColumnContent div a:visited{
+			color:#333333;
+			font-weight:normal;
+			text-decoration:none;
+		}
+		.leftColumnContent span,.leftColumnContent span a:link,.leftColumnContent span a:visited{
+			color:#4E2C66;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+			font-weight:bold;
+			text-decoration:none;
+		}
+		.leftColumnContent img{
+			display:inline;
+			height:auto;
+		}
+		.rightColumnContent div{
+			color:#666666;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:14px;
+			line-height:150%;
+			text-align:left;
+		}
+		.rightColumnContent div a:link,.rightColumnContent div a:visited{
+			color:#666666;
+			font-weight:normal;
+			text-decoration:none;
+		}
+		.rightColumnContent span,.rightColumnContent span a:link,.rightColumnContent span a:visited{
+			color:#4E2C66;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+			font-weight:bold;
+			text-decoration:none;
+		}
+		.rightDatenum div{
+			color:#333333;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:20px;
+			font-weight:bold;
+			line-height:100%;
+			text-align:left;
+		}
+		.rightDatemonth div{
+			color:#666666;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:11px;
+			text-transform:uppercase;
+			line-height:100%;
+			text-align:left;
+		}
+		.rightDatetitle div{
+			color:#333333;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:13px;
+			font-weight:bold;
+			line-height:100%;
+			text-align:left;
+		}
+		.rightDatetitle div a:link,.rightDatetitle div a:visited{
+			color:#333333;
+			text-decoration:none;
+		}
+		.rightDatehour div{
+			color:#666666;
+			font-family:Georgia, serif;
+			font-size:14px;
+			line-height:100%;
+			text-align:left;
+		}
+</style></head>
 
-			/* Reset Styles */
-			body{margin:0; padding:0;}
-			img{border:none; font-size:14px; font-weight:bold; height:auto; line-height:100%; outline:none; text-decoration:none; text-transform:capitalize;}
-			#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" id="backgroundTable">
+	<tr>
+    	<td valign="top">
+        	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+            	<tr>
+                	<td id="topBar" background="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/black_bg.gif">
+                    	<table width="600" align="center" border="0" cellspacing="0" cellpadding="10">
+                        	<tr>
+                            	<td class="teaser">
+                                	<div mc:edit="teaser" mc:hideable="">Include Teaser line here</div>
+                                </td>
+                                <td class="archive">
+                                	<div mc:edit="archive"><a href="*|ARCHIVE|*">View this email online</a></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>    
+                    <td valign="top" background="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/purple_bg.gif" id="headlineBar">
+                   		<table width="580" align="center" border="0" cellspacing="0" cellpadding="0">
+                        	<tr>
+                            	<td height="100" valign="middle">
+                                	<a href="http://www.acu.edu/"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/acu_header.png" width="433" height="61" alt="Abilene Christian University" border="0" class="block"></a>
+                                </td>
+                                                               
+                                          <td width="35" align="left"><a href="*|FORWARD|*" mc:hideable=""><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/envelope.jpg" width="24" height="26" alt="" border="0" class="block" align="left"></a></td>
 
-		body {
-		background-color: #ffffff;
-		margin: 0;
-		padding: 0;
-		}
-		a {
-		color:#a14933;
-		text-decoration:none;
-		}
-		a:hover {
-		color:#a14933;
-		text-decoration:underline;
-		}
-		img {
-		border: none;
-		}
-		#toc ul{
-			list-style:none;
-			list-style-type:none;
-			margin: 0;
-			padding: 0;			
-		}
-		#toc li {
-			list-style:none;
-			list-style-type:none;
-			margin: 0;
-			padding: 0;			
-		}
-		#toc a {
-			font-size: 11px;
-			display:inline-block;
-			color:#000;
-		}
-		</style>
-	</head>
-	<body>
-		<center>
-		<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" id="backgroundTable">
-			<tr>
-				<td valign="top">
-<!-- // Begin Snippet: Unsubscribe and Archive \\ -->			
-					<table width="650" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#F7F7F7">
-						<tr>
-							<td style="font-family: Arial; font-size: 11px; text-align: center;" mc:edit="coba_650_header_00_text">
-								<p>
-									If you are having difficulty viewing then <a href="*|ARCHIVE|*" style="text-decoration: underline;">click here to open in your browser</a>.
-								</p>
-								<p>
-									If you no longer wish to receive our exclusive news and offers you can always <a href="*|UNSUB|*" style="text-decoration: underline;">Unsubscribe</a>.
-								</p>
-							</td>
-						</tr>
-					</table>
-<!-- // End Snippet: Unsubscribe and Archive \\ -->
-<!-- // Begin Template: Main \\ -->
-					<table width="650" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#F7F7F7">
-						<tr>
-							<td>
-<!-- // Begin Section: Header \\ -->
-								<table width="650" height="97" border="0" cellspacing="0" cellpadding="0" bgcolor="#F7F7F7">
-									<tr>
-										<td height="97" width="425" align="left" valign="top" bgcolor="#F7F7F7" mc:edit="coba_650_header_00" mc:label="Header image" mc:allowdesigner="">
-											<img src="http://placehold.it/425x93" width="425" height="93" alt="College of Business Administration">
-										</td>
-										<td width="193" align="left" valign="top" bgcolor="#F7F7F7">
-											<table width="225" height="97" border="0" cellspacing="0" cellpadding="0" bgcolor="#F7F7F7">
-												<tr>
-													<td height="93" width="225" align="right" bgcolor="#CCCCCC" style="color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-size: 18px; letter-spacing: 0px; padding-right: 10px;">
-														<img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/skimming_topics.jpg" alt="Skimming topics" width="130" height="23">
-														<div id="toc" style="font-family: Arial; font-size: 11px; text-align: right; padding: 0 10px 0 0; color: #000;">
-															<ul mc:edit="coba_toc">
-																<li><a href="#">Table of contents link</a></li>
-																<li><a href="#">Table of contents link</a></li>
-																<li><a href="#">Table of contents link</a></li>
-															</ul>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td height="4" width="225" bgcolor="#F7F7F7"></td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-<!-- // End Section: Header \\ -->
-<!-- // Begin Section: Splash \\ -->
-								<table mc:repeatable="coba_650" width="630" border="0" cellspacing="0" cellpadding="0" mc:variant="Splash the content">
-									<tr>
-										<td height="350" valign="top" mc:edit="coba_650_splash_00" mc:label="Header image" mc:allowdesigner="">
-											<a href="#"><img src="http://placehold.it/650x350" alt="College of Business Administration" width="650" height="350" border="0"></a>
-										</td>
-									</tr>
-								</table>
-<!-- // End Section: Splash \\ -->
-<!-- // Begin Section: Content with right sidebar \\ -->
-								<table width="630" border="0" align="center" cellpadding="0" cellspacing="0" mc:repeatable="coba_650" mc:variant="Content with right sidebar">
-									<tr>
-										<td colspan="3">
-											<table width="100%" border="0" cellspacing="0" cellpadding="0">
-												<tr>
-													<td align="left" height="70" valign="middle" bgcolor="#F7F7F7" style="font-family: Arial, Helvetica, sans-serif; color: #1f242f; font-size: 30px; letter-spacing: -1px;" mc:edit="coba_650_content00">
-														You can go, but not without permission [slips]
-													</td>
-												</tr>
-												<tr>
-													<td height="35" align="left" valign="top" bgcolor="#F7F7F7" style="font-family: Arial, Helvetica, sans-serif; color: #a14933; font-size: 14px;" mc:edit="coba_650_content01">
-														If you’re planning to go to Honduras or Austrailia this summer, you need these forms
-													</td>
-												</tr>
-												<tr>
-													<td></td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-									<tr>
-										<td width="421" valign="top">
-											<table width="400" border="0" cellspacing="0" cellpadding="0">
-												<tr>
-													<td></td>
-												</tr>
-												<tr>
-													<td height="87" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;">
-														<div mc:edit="coba_650_content02">
-															<span style="font-size: 18px; color: #a14933;">D</span>onec placerat. Nullam nibh dolor, blandit sed, fermentum id, imperdiet sit amet, neque. Nam mollis ultrices justo. Sed tempor. Sed vitae tellus. Etiam sem arcu, eleifend sit amet, gravida eget, porta at, wisi. Nam non lacus vitae ipsum viverra pretium. Phasellus massa. Fusce magna sem, gravida in, feugiat ac, molestie eget, wisi.<br>
-															<br>
-															Fusce consectetuer luctus ipsum. Vestibulum nunc. Suspendisse dignissim adipiscing libero. Integer leo. Sed pharetra ligula a dui.dapibus sed, varius non, lectus.<br>
-															<br>
-														</div>
-                                                        <div mc:edit="coba_650_content03" mc:label="continue_reading" mc:allowdesigner="" mc:allowtext="">
-														<a href="#"><img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/continue_reading_button.jpg" alt="Continue Reading" width="129" height="27" border="0"></a>
-                                                        </div>
-													</td>
-												</tr>
-											</table>
-										</td>
-										<td width="20">
-											&nbsp;
-										</td>
-										<td width="200" valign="top">
-											<table width="200" border="0" cellspacing="0" cellpadding="0" bgcolor="#F7F7F7">
-												<tr>
-													<td height="40" style="font-family: Arial, Helvetica, sans-serif; color: #a14933; font-size: 14px;" mc:edit="coba_650_content04">
-														Get these signed, pronto:
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<table width="100%" border="0" cellspacing="0" cellpadding="0">
-															<tr>
-																<td align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;">
-																	<ul style="margin-left:0px; padding-left:0px; line-height: 36px;" mc:edit="coba_650_list00">
-																		<li style="list-style:none; border-top: 1px solid #e4e4e6; color: #8b8b8b; margin-left:0px; padding-left:0px;">Form 1
-																		</li>
-																		<li style="list-style:none; border-top: 1px solid #e4e4e6; color: #8b8b8b; margin-left:0px; padding-left:0px;">Form 2
-																		</li>
-																		<li style="list-style:none; border-top: 1px solid #e4e4e6; color: #8b8b8b; margin-left:0px; padding-left:0px;">Form 3
-																		</li>
-																		<li style="list-style:none; border-top: 1px solid #e4e4e6; color: #8b8b8b; margin-left:0px; padding-left:0px;">Sign away your life savings
-																		</li>
-																		<li style="list-style:none; border-top: 1px solid #e4e4e6; color: #8b8b8b; margin-left:0px; padding-left:0px;">Publishers Clearing House
-																		</li>
-																	</ul>
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-<!-- // End Section: Content with right sidebar \\ -->
-<!-- // Begin Section: Content with left image \\ -->
-								<table width="630" border="0" align="center" cellpadding="0" cellspacing="0" mc:repeatable="coba_650" mc:variant="Content with left image">
-									<tr>
-										<td height="37" colspan="3" valign="middle">
-											<img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/hr.jpg" width="630" height="9" alt="hr1">
-										</td>
-									</tr>
-									<tr>
-										<td width="223" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;" mc:edit="coba_650_image_00" mc:allowdesigner="" mc:allowtext="">
-											<img src="http://placehold.it/200x150" alt="" width="200" height="150" hspace="0" vspace="0" align="left">
-										</td>
-										<td width="407" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;">
-											<div mc:edit="coba_650_content05">
-												<span style="font-size: 22px; color: #1f242f;">Full width column with image</span><br>
-												<br>
-												Etiam enim enim, elementum sed, bibendum quis, rhoncus non, metus. Fusce neque dolor, adipiscing sed, consectetuer et, lacinia sit amet, quam. Suspendisse wisi quam, consectetuer in, blandit sed, suscipit eu, eros. <a href="#" style="color:#a14933;">Etiam enim enim, elementum sed</a>.<br>
-												<br>
-											</div>
-											<a href="#"><img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/continue_reading_button.jpg" alt="Continue Reading" width="129" height="27" border="0" mc:edit="coba_650_content06"></a>
-										</td>
-									</tr>
-									<tr>
-										<td colspan="2" style="font-family: Helvetica, sans-serif; font-size: 13px; color: #373737; line-height: 16px;">
-											&nbsp;
-										</td>
-									</tr>
-								</table>
-<!-- // End Section: Content with left image \\ -->
-<!-- // Begin Section: Content with right image \\ -->
-								<table width="630" border="0" align="center" cellpadding="0" cellspacing="0" mc:repeatable="coba_650" mc:variant="Content with right image">
-									<tr>
-										<td height="37" colspan="2" valign="middle">
-											<img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/hr.jpg" width="630" height="9" alt="hr1">
-										</td>
-									</tr>
-									<tr>
-										<td width="407" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;">
-											<div mc:edit="coba_650_content05">
-												<span style="font-size: 22px; color: #1f242f;">Full width column with image</span><br>
-												<br>
-												Etiam enim enim, elementum sed, bibendum quis, rhoncus non, metus. Fusce neque dolor, adipiscing sed, consectetuer et, lacinia sit amet, quam. Suspendisse wisi quam, consectetuer in, blandit sed, suscipit eu, eros. <a href="#" style="color:#a14933;">Etiam enim enim, elementum sed</a>.<br>
-												<br>
-											</div>
-											<a href="#"><img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/continue_reading_button.jpg" alt="Continue Reading" width="129" height="27" border="0" mc:edit="coba_650_content06"></a>
-										</td>
-                                        <td width="223" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;" mc:edit="coba_650_image_00_right" mc:allowdesigner="" mc:allowtext="">
-											<img src="http://placehold.it/200x150" alt="" width="200" height="150" hspace="0" vspace="0" align="right">
-										</td>
-									</tr>
-									<tr>
-										<td colspan="2" style="font-family: Helvetica, sans-serif; font-size: 13px; color: #373737; line-height: 16px;">
-											&nbsp;
-										</td>
-									</tr>
-								</table>
-<!-- // End Section: Content with right image \\ -->
-<!-- // Begin Section: Two column content \\ -->
-								<table width="630" border="0" align="center" cellpadding="0" cellspacing="0" mc:repeatable="coba_650" mc:variant="Two column content">
-									<tr>
-										<td height="37" colspan="2" valign="bottom">
-											<img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/hr.jpg" width="630" height="9" alt="hr1">
-										</td>
-									</tr>
-									<tr>
-										<td height="74" colspan="2" align="left" valign="middle" bgcolor="#F7F7F7" style="font-family: Arial, Helvetica, sans-serif; color: #1f242f; font-size: 22px; letter-spacing: -1px;" mc:edit="coba_content07">
-											Things you missed while you were asleep last semester
-										</td>
-									</tr>
-									<tr>
-										<td colspan="2" align="left" valign="top" bgcolor="#F7F7F7" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #929292; line-height: 18px;">
-											<table width="630" border="0" cellspacing="0" cellpadding="0" mc:repeatable="">
-												<tr>
-													<td width="300" height="42" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #1f242f; line-height: 18px;" mc:edit="coba_content08">
-														Text for this image here
-													</td>
-													<td width="300" height="42" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #1f242f; line-height: 18px;" mc:edit="coba_content09">
-														Text for this image here
-													</td>
-												</tr>
-												<tr>
-													<td width="300" height="2" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;" mc:edit="coba_content10">
-														<a href="#" style="color:#a14933;">Etiam enim enim</a>, elementum sed, bibendum quis, rhoncus non, metus.Etiam enim enim, elementum.
-													</td>
-													<td width="300" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;" mc:edit="coba_content11">
-														<a href="#" style="color:#a14933;">Etiam enim enim</a>, elementum sed, bibendum quis, rhoncus non, metus.Etiam enim enim, elementum.
-													</td>
-												</tr>
-												<tr>
-													<td width="300" height="54" align="left" valign="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;">
-														<a href="#"><img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/continue_reading_button.jpg" alt="Continue Reading" width="129" height="27" border="0" mc:edit="coba_image03" mc:allowdesigner="" mc:allowtext=""></a>
-													</td>
-													<td width="300" height="54" align="left" valign="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;">
-														<a href="#"><img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/continue_reading_button.jpg" alt="Continue Reading" width="129" height="27" border="0" mc:edit="coba_image04" mc:allowdesigner="" mc:allowtext=""></a>
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-<!-- // End Section: Two column content \\ -->
-<!-- // Begin Section: Content with Gallery Content \\ -->
-								<table width="630" border="0" align="center" cellpadding="0" cellspacing="0" mc:repeatable="coba_650" mc:variant="Gallery content">
-									<tr>
-										<td height="37" colspan="2" valign="bottom">
-											<img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/hr.jpg" width="630" height="9" alt="hr1">
-										</td>
-									</tr>
-									<tr>
-										<td height="74" colspan="2" align="left" valign="middle" bgcolor="#F7F7F7" style="font-family: Arial, Helvetica, sans-serif; color: #1f242f; font-size: 22px; letter-spacing: -1px;" mc:edit="coba_content07">
-											Things you missed while you were asleep last semester
-										</td>
-									</tr>
-									<tr>
-										<td colspan="2" align="left" valign="top" bgcolor="#F7F7F7" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #929292; line-height: 18px;">
-											<table width="630" border="0" cellspacing="0" cellpadding="0" mc:repeatable="">
-												<tr>
-													<td width="300" height="178" align="left" valign="top" mc:edit="coba_650_image_01" mc:allowdesigner="" mc:allowtext="">
-														<img src="http://placehold.it/300x150" width="300" height="150" alt="gallery1">
-													</td>
-													<td width="30" rowspan="4" align="left" valign="top">
-														&nbsp;
-													</td>
-													<td width="300" height="178" align="left" valign="top" mc:edit="coba_650_image_02" mc:allowdesigner="" mc:allowtext="">
-														<img src="http://placehold.it/300x150" width="300" height="150" alt="gallery3">
-													</td>
-												</tr>
-												<tr>
-													<td width="300" height="42" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #1f242f; line-height: 18px;" mc:edit="coba_content08">
-														Text for this image here
-													</td>
-													<td width="300" height="42" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #1f242f; line-height: 18px;" mc:edit="coba_content09">
-														Text for this image here
-													</td>
-												</tr>
-												<tr>
-													<td width="300" height="2" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;" mc:edit="coba_content10">
-														<a href="#" style="color:#a14933;">Etiam enim enim</a>, elementum sed, bibendum quis, rhoncus non, metus.Etiam enim enim, elementum.
-													</td>
-													<td width="300" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;" mc:edit="coba_content11">
-														<a href="#" style="color:#a14933;">Etiam enim enim</a>, elementum sed, bibendum quis, rhoncus non, metus.Etiam enim enim, elementum.
-													</td>
-												</tr>
-												<tr>
-													<td width="300" height="54" align="left" valign="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;">
-														<a href="#"><img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/continue_reading_button.jpg" alt="Continue Reading" width="129" height="27" border="0" mc:edit="coba_image03" mc:allowdesigner="" mc:allowtext=""></a>
-													</td>
-													<td width="300" height="54" align="left" valign="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;">
-														<a href="#"><img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/continue_reading_button.jpg" alt="Continue Reading" width="129" height="27" border="0" mc:edit="coba_image04" mc:allowdesigner="" mc:allowtext=""></a>
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-<!-- // End Section: Content with Gallery Content \\ -->
-<!-- // Begin Section: Full-width Content \\ -->
-								<table width="630" border="0" align="center" cellpadding="0" cellspacing=" 0" mc:repeatable="coba_650" mc:variant="Full-width content">
-									<tr>
-										<td height="37" colspan="2" valign="bottom">
-											<img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/hr.jpg" width="630" height="9" alt="hr1">
-										</td>
-									</tr>
-									<tr>
-										<td height="74" colspan="2" align="left" valign="middle" bgcolor="#F7F7F7" style="font-family: Arial, Helvetica, sans-serif; color: #1f242f; font-size: 22px; letter-spacing: -1px;" mc:edit="coba_content12">
-											Grad School in South Carolina. It's cool to J. Dodd
-										</td>
-									</tr>
-									<tr>
-										<td colspan="2" align="left" valign="top" bgcolor="#F7F7F7" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #929292; line-height: 18px;">
-											<!-- START OF Gallery Row 1 -->
-											<table width="630" border="0" align="center" cellpadding="0" cellspacing="0">
-												<tr>
-													<td width="100%" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;">
-														<div mc:edit="coba_content13">
-															Etiam enim enim, elementum sed, bibendum quis, rhoncus non, metus. Fusce neque dolor, adipiscing sed, consectetuer et, lacinia sit amet, quam. Suspendisse wisi quam, consectetuer in, blandit sed, suscipit eu, eros. <a href="#" style="color:#a14933;">Etiam enim enim, elementum sed</a>.<br>
-														</div>
-														<div mc:edit="coba_image6">
-														<a href="#"><img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/continue_reading_button.jpg" alt="Continue Reading" width="129" height="27" border="0" ></a>
-													</div>
-													</td>
-												</tr>
-												<tr>
-													<td colspan="2" style="font-family: Helvetica, sans-serif; font-size: 13px; color: #373737; line-height: 16px;">
-														&nbsp;
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-<!-- // End Section: Full-width content \\ -->
-<!-- // Begin Section: Content with headline and left image \\ -->
-								<table width="630" border="0" align="center" cellpadding="0" cellspacing=" 0" mc:repeatable="coba_650" mc:variant="Content with headline and left image">
-									<tr>
-										<td height="37" colspan="2" valign="bottom">
-											<img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/hr.jpg" width="630" height="9" alt="hr1">
-										</td>
-									</tr>
-									<tr>
-										<td height="74" colspan="2" align="left" valign="middle" bgcolor="#F7F7F7" style="font-family: Arial, Helvetica, sans-serif; color: #1f242f; font-size: 22px; letter-spacing: -1px;" mc:edit="coba_content12">
-											Grad School in South Carolina. It's cool to J. Dodd
-										</td>
-									</tr>
-									<tr>
-										<td colspan="2" align="left" valign="top" bgcolor="#F7F7F7" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #929292; line-height: 18px;">
-											<!-- START OF Gallery Row 1 -->
-											<table width="630" border="0" align="center" cellpadding="0" cellspacing="0">
-												<tr>
-													<td width="223" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;" mc:edit="coba_image05">
-														<img src="http://placehold.it/200x150" alt="" width="200" height="150" hspace="0" vspace="0" align="left">
-													</td>
-													<td width="407" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;">
-														<div mc:edit="coba_content13">
-															Etiam enim enim, elementum sed, bibendum quis, rhoncus non, metus. Fusce neque dolor, adipiscing sed, consectetuer et, lacinia sit amet, quam. Suspendisse wisi quam, consectetuer in, blandit sed, suscipit eu, eros. <a href="#" style="color:#a14933;">Etiam enim enim, elementum sed</a>.<br>
-														</div>
-														<a href="#"><img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/continue_reading_button.jpg" alt="Continue Reading" width="129" height="27" border="0" mc:edit="coba_image6"></a>
-													</td>
-												</tr>
-												<tr>
-													<td colspan="2" style="font-family: Helvetica, sans-serif; font-size: 13px; color: #373737; line-height: 16px;">
-														&nbsp;
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-<!-- // End Section: Content with headline and left image \\ -->
-<!-- // Begin Section: Content with headline and right image \\ -->
-								<table width="630" border="0" align="center" cellpadding="0" cellspacing=" 0" mc:repeatable="coba_650" mc:variant="Content with headline and right image">
-									<tr>
-										<td height="37" colspan="2" valign="bottom">
-											<img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/hr.jpg" width="630" height="9" alt="hr1">
-										</td>
-									</tr>
-									<tr>
-										<td height="74" colspan="2" align="left" valign="middle" bgcolor="#F7F7F7" style="font-family: Arial, Helvetica, sans-serif; color: #1f242f; font-size: 22px; letter-spacing: -1px;" mc:edit="coba_content12">
-											Grad School in South Carolina. It's cool to J. Dodd
-										</td>
-									</tr>
-									<tr>
-										<td colspan="2" align="left" valign="top" bgcolor="#F7F7F7" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #929292; line-height: 18px;">
-											<!-- START OF Gallery Row 1 -->
-											<table width="630" border="0" align="center" cellpadding="0" cellspacing="0">
-												<tr>
-													<td width="407" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;">
-														<div mc:edit="coba_content13">
-															Etiam enim enim, elementum sed, bibendum quis, rhoncus non, metus. Fusce neque dolor, adipiscing sed, consectetuer et, lacinia sit amet, quam. Suspendisse wisi quam, consectetuer in, blandit sed, suscipit eu, eros. <a href="#" style="color:#a14933;">Etiam enim enim, elementum sed</a>.<br>
-														</div>
-														<a href="#"><img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/continue_reading_button.jpg" alt="Continue Reading" width="129" height="27" border="0" mc:edit="coba_image6"></a>
-													</td>
-                                                    <td width="223" align="left" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; line-height: 18px;" mc:edit="coba_image05_right">
-														<img src="http://placehold.it/200x150" alt="" width="200" height="150" hspace="0" vspace="0" align="right">
-													</td>
-												</tr>
-												<tr>
-													<td colspan="2" style="font-family: Helvetica, sans-serif; font-size: 13px; color: #373737; line-height: 16px;">
-														&nbsp;
-													</td>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-<!-- // End Section: Content with headline and right image \\ -->
-<!-- // Begin Section: Footer \\ -->
-								<table width="650" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
-									<tr>
-										<td height="68" colspan="2" valign="middle" align="center" bgcolor="#F7F7F7">
-											<img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/hr.jpg" width="630" height="9" alt="hr1">
-										</td>
-									</tr>
-									<tr>
-										<td height="100" colspan="2" valign="middle" bgcolor="#CCCCCC" mc:edit="coba_650_footer"><img src="http://gallery.mailchimp.com/92bb5fb0babe7e6ef9bba0a09/images/footer.jpg" width="650" height="110" alt="Abilene Christian University - College of Business Administration"></td>
-									</tr>
-									<tr>
-										<td width="401" height="55" align="left" valign="middle" bgcolor="#FFFFFF" style="font-family: Helvetica, sans-serif; font-size: 11px; color: #a5a5a5; line-height: 16px;" mc:edit="coba_650_footer_00">
-											Copyright © *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.<br>
-											ACU Box 29000 | Abilene | Texas 79699 | <a href="mailto:coba@acu.edu" style="color:#a14933;">coba@acu.edu</a>
-										</td>
-										<td width="232" align="right" valign="middle" bgcolor="#FFFFFF" style="font-family: Helvetica, sans-serif; font-size: 11px; color: #a5a5a5; line-height: 16px;" mc:edit="coba_650_footer_01">
-											<a href="*|UNSUB|*" style="color:#a14933;">Unsubscribe</a> | <a href="*|UPDATE_PROFILE|*" style="color:#a14933;">Subscribe</a>
-										</td>
-									</tr>
-								</table><!-- END OF FOOTER TABLE -->
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-		</table>
-	</center>
-	</body>
+                                          <td class="forward" width="80" mc:hideable=""><a href="*|FORWARD|*">Forward this email &raquo;</a></td>
+                                       
+                           </tr>
+                        </table>        
+                        <table width="580" align="center" border="0" cellspacing="0" cellpadding="0" mc:repeatable="" mc:variant="spotlight">
+                            <tr>
+                            	<td colspan="2" valign="top" height="30"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/ruler580violet.gif" width="580" height="4" alt=""></td>
+                            </tr>
+                            <tr>
+                            	<td>
+                                	<div class="byline" mc:edit="byline" mc:hideable="" mc:variant="byline">
+                                    	Include subtitle here
+                                    </div>
+                                    <h1 mc:edit="headline">
+                                    	Main title goes here.
+                                    </h1>
+                                </td>
+                                <td width="80" align="right" valign="top" class="calendar">
+                                	<table width="60" border="0" cellspacing="0" cellpadding="10" mc:hideable="">
+                                  <tr>
+                                    <td bgcolor="#FFFFFF">
+                                    	<table width="100%" border="0" align="right" cellpadding="0" cellspacing="0">
+                                    	<tr>
+                                        	<td width="40" height="20" valign="middle"><span mc:edit="month1">JAN</span></td>
+                                        </tr>
+                                        <tr>
+                                        	<td height="20" valign="middle"><strong mc:edit="day1">1</strong></td>
+                                        </tr>
+                                    	</table>
+                                    </td>
+                                  </tr>
+                                </table>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td colspan="2">
+                                <span>
+                            	<!-- // Begin Module: Standard Header Image \\ -->
+                                <img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/placeholder_580.gif" style="max-width:580px;" mc:label="main_image" mc:edit="main_image">
+                                <br><br>
+                                <!-- // End Module: Standard Header Image \\ -->
+                                </span>
+                                <b class="byline" mc:edit="subtitle"> Include subtitle here</b><br><br>
+                                <span class="contentWhite" mc:edit="content0">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet dolor lorem, nec interdum nunc. Donec sit amet augue ligula. Duis eu purus sit amet sapien tempus vulputate. Vestibulum et neque augue, eu ornare turpis. Donec eros tellus, dignissim vel venenatis vel, dictum vel eros. <a href="#">Mauris aliquet consequat risus</a>, vel consectetur urna ullamcorper non. Donec porttitor nisi et enim laoreet dignissim. Phasellus lobortis molestie augue convallis facilisis. Vivamus iaculis sodales lorem, sed viverra enim ornare congue. Integer varius aucvestibulum. </span>
+                                </td>
+                          </tr>
+                            <tr><td height="20" colspan="3">&nbsp;</td></tr>
+                      </table>
+                  </td>
+                </tr>
+            </table>
+            <table width="580" border="0" cellpadding="0" cellspacing="0" align="center">
+            	<tr>
+                	<td height="25">&nbsp;</td>
+                </tr>
+            	<tr>
+            	  <td height="25">
+                  	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="300" valign="top">
+                       	  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr mc:repeatable="">
+                                <td valign="top" class="leftColumnContent">
+                                	<div mc:edit="tiwc200_content00">
+ 	                            		<h4 class="h4">Heading 4</h4>
+                                        <strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!<br>
+										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                          <tr>
+                                            <td width="100" height="40" valign="bottom"><span>Read more &raquo;</span></td>
+                                            <td width="200" align="right" valign="bottom"><div>*|FACEBOOK:LIKE|*&nbsp;&nbsp;*|GOOGLE:PLUSONE|*</div></td>
+                                          </tr>
+                                          <tr>
+                                            <td height="50" colspan="2"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/ruler300.gif" width="300" height="1"></td>
+                                          </tr>
+                                        </table>
+                                	</div>
+                                </td>
+                              </tr>
+                            </table>
+                        </td>
+                        <td width="40">&nbsp;</td>
+                        <td width="240" valign="top">
+                        	<table width="100%" border="0" cellspacing="0" cellpadding="0" mc:hideable="">
+                              <tr>
+                                <td align="center" bgcolor="#EEEEEE">
+                                	<table width="100%" border="0" cellspacing="0" cellpadding="20">
+                                      <tr>
+                                        <td align="left"><div><h2>NEWS</h2></div></td>
+                                      </tr>
+                                    </table>
+                                    
+                                </td>
+                              </tr>
+                              <tr mc:repeatable="">
+                                <td align="center" bgcolor="#EEEEEE">
+                                <table width="200" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td height="1" align="center" valign="top"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/ruler200.gif" width="200" height="1"></td>
+                                      </tr>
+                                      <tr>
+                                        <td height="20" align="center" valign="top">&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td height="1" align="left" class="rightColumnContent"><div mc:edit="news">Vivamus venenatis justo luctus maustibulum condimentum.</div></td>
+                                      </tr>
+                                      <tr>
+                                        <td height="20" class="rightColumnContent">&nbsp;</td>
+                                      </tr>
+                                  	</table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/blank.gif" width="10" height="10" alt="" border="0" class="block" align="left"></td>
+                              </tr>
+                            </table>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0" mc:hideable="">
+                              <tr>
+                                <td align="center" bgcolor="#EEEEEE">
+                                	<table width="100%" border="0" cellspacing="0" cellpadding="20">
+                                      <tr>
+                                        <td align="left"><div><h2>UPCOMING  EVENTS</h2></div></td>
+                                      </tr>
+                                    </table>
+                                    
+                                </td>
+                              </tr>
+                              <tr mc:repeatable="">
+                                <td align="center" bgcolor="#EEEEEE">
+                                <table width="200" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <td height="1" align="center" valign="top"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/ruler200.gif" width="200" height="1"></td>
+                                      </tr>
+                                      <tr>
+                                        <td height="20" align="center" valign="top">&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tr>
+                                                <td width="35">
+                                                	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                      <tr>
+                                                        <td align="left" class="rightDatenum"><div mc:edit="rightdatenum">07</div></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td align="left" class="rightDatemonth"><div mc:edit="rightdatemonth">APR</div></td>
+                                                      </tr>
+                                                    </table>
+                                                </td>
+                                                <td valign="top">
+                                                	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                      <tr>
+                                                        <td height="15" align="left" valign="top" class="rightDatetitle"><div mc:edit="rightdatetitle">Jazz Ensemble Concert</div></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td align="left" class="rightDatehour"><div mc:edit="rightdatehour">8:30 - 9:30 p.m.</div></td>
+                                                      </tr>
+                                                    </table>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td height="20" class="rightColumnContent">&nbsp;</td>
+                                      </tr>
+                                  	</table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/blank.gif" width="10" height="10" alt="" border="0" class="block" align="left"></td>
+                              </tr>
+                            </table>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" mc:hideable="">
+                              <tr bgcolor="#E7E2E9">
+                                <td align="center" bgcolor="#E7E2E9">
+                                	<table width="100%" border="0" cellspacing="0" cellpadding="20">
+                                      <tr>
+                                        <td align="left"><div>
+                                        <h2 style="letter-spacing:3px;">VIDEO OF THE MONTH</h2></div></td>
+                                      </tr>
+                                    </table>
+                                    <table width="200" border="0" cellspacing="0" cellpadding="0" mc:repeatable="">
+                                      <tr>
+                                        <td height="1" align="center" valign="top"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/ruler201.gif" width="200" height="1"></td>
+                                      </tr>
+                                      <tr>
+                                        <td height="20" align="center" valign="top">&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/placeholder_200.gif" style="max-width:200px;" mc:label="image" mc:edit="video"></td>
+                                      </tr>
+                                      <tr>
+                                        <td height="20">&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td height="20" align="left" class="rightColumnContent"><span><a href="http://www.youtube.com/acu">View more videos &raquo;</a></span></td>
+                                      </tr>
+                                      <tr>
+                                        <td height="20">&nbsp;</td>
+                                      </tr>
+                                  	</table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/blank.gif" width="10" height="10" alt="" border="0" class="block" align="left"></td>
+                              </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+          	  	</tr>
+            	<tr>
+            	  <td height="25">&nbsp;</td>
+          	  </tr>
+            </table>
+            <table width="580" border="0" cellpadding="0" cellspacing="0" id="footer" align="center">
+            	<tr>
+            		<td>
+
+                    	<table width="100%" id="directions" cellpadding="15" cellspacing="0" align="center">
+                        	<tr>
+                            	<td class="border-right" align="center" valign="middle">
+                                	<a href="http://www.acu.edu/"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/acu_footer.gif" width="59" height="41" alt="ACU" border="0" class="block"></a>
+                                </td>
+                                <td class="border-right address">
+                                	<div mc:edit="address"><strong>Abilene Christian University</strong><br>
+                                    Abilene, Texas 79699</div>
+                                </td>
+                                <td class="border-right">
+                                <div mc:edit="operator">Campus Operator<br>
+                                <strong>325-674-2000</strong></div>
+                                </td>
+                                <td>
+                                <div mc:edit="admissions">Admissions Helpline<br>
+                                <strong>800-460-6228</strong></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+            	</tr>
+                <tr>
+                	<td height="75" valign="middle">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td><div id="copyright" mc:edit="copyright">Copyright © 2012. Abilene Christian University. All rights reserved.</div></td>
+                       <td width="150" align="right"><a href="https://plus.google.com/118318959013153906674"><img src="http://ssl.gstatic.com/images/icons/gplus-32.png" alt="+1" width="24" height="24" border="0"></a>&nbsp;<a href="http://www.twitter.com/acuedu"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/tw.jpg" alt="Tw" width="24" height="24" border="0"></a>&nbsp;<a href="http://www.facebook.com/abilenechristian"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/fb.jpg" alt="Fb" width="24" height="24" border="0"></a>&nbsp;<a href="http://www.linkedin.com/groups?viewMembers=&amp;gid=1910637&amp;sik=1281686963691"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/in.jpg" alt="In" width="24" height="24" border="0"></a>&nbsp;<a href="http://www.youtube.com/acu"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/yt.jpg" alt="YT" width="24" height="24" border="0"></a></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                	<td height="30" valign="top"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/dots_ruler.gif" width="576" height="1" alt=""></td>
+                </tr>       
+                <tr>
+                	<td><div id="list-description" mc:edit="listdescription">You are receiving this email because you opted-in at our website. If you want to be removed from future ACU emails, <a href="*|UNSUB|*">unsubscribe here</a>. <a href="*|UPDATE_PROFILE|*">Update subscription preferences</a>.</div>
+                    </td>
+                </tr>                    
+                <tr><td>&nbsp;</td></tr>
+            </table>
+        </td>
+	</tr>
+</table>
+</body>
 </html>
