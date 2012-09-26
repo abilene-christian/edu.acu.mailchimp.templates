@@ -1,596 +1,956 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <!-- Facebook sharing information tags -->
-    <meta property="og:title" content="*|MC:SUBJECT|*">
-    
-    <title>*|MC:SUBJECT|*</title>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>*|MC:SUBJECT|*</title>
+        <!-- Facebook sharing information tags -->
+        <meta property="og:title" content="*|MC:SUBJECT|*">
+		
+    <style type="text/css">
+        	/*
+	@tab Preview
+	*/
+		
+			/* Client-specific Styles */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
+			body{width:100% !important;} /* Force Hotmail to display emails at full width */
+			body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
 
-<style type="text/css">
-		#outlook a{
-			padding:0;
+			/* Reset Styles */
+			body{margin:0; padding:0;}
+			img{border:none; font-size:14px; font-weight:bold; height:auto; line-height:100%; outline:none; text-decoration:none; text-transform:capitalize;}
+
+		.ReadMsgBody{
+			width:100%;
 		}
-		body{
-			width:100% !important;
+		.ExternalClass{
+			width:100%;
 		}
-		body{
-			-webkit-text-size-adjust:none;
+		.yshortcuts,a .yshortcuts,a .yshortcuts:hover,a .yshortcuts:active,a .yshortcuts:focus{
+			background-color:transparent !important;
+			border:none !important;
+			color:inherit !important;
 		}
 		body{
 			margin:0;
 			padding:0;
 		}
 		img{
-			border:none;
-			font-size:14px;
-			font-weight:bold;
-			height:auto;
+			border:0;
 			line-height:100%;
 			outline:none;
 			text-decoration:none;
-			text-transform:capitalize;
 		}
-		#backgroundTable{
-			height:100% !important;
+		table,td{
+			border-collapse:collapse !important;
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		
+		#bodyTable,#bodyCell{
 			margin:0;
 			padding:0;
 			width:100% !important;
 		}
-		#topBar{
-			background:#444444 url(http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/black_bg.gif) repeat;
+		#bodyCell{
+			padding:20px;
 		}
-		#topBar div{
-			font-family:sans-serif;
-			color:#FFFFFF;
+		.templateContainer{
+			width:580px;
 		}
-		#topBar a{
-			color:#FFFFFF;
+
+		h1{
+		    color: #FFFFFF !important;
+		    font-family: Georgia,serif;
+		    font-size: 36px;
+		    font-weight: normal;
+		    line-height: 150%;
+		    padding: 0;
+		    margin: 0;
+		    text-align: left;
 		}
+
+		h2{
+			color: #FFFFFF !important;
+			display:block;
+			font-family:Helvetica, Arial;
+			font-size:16px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:100%;
+			margin:0;
+			text-align:left;
+		}
+
+		h3{
+			color: #FFFFFF !important;
+		    font-family: Arial,Helvetica,sans-serif;
+		    font-size:13px;
+		    font-weight:bold;
+		    line-height:100%;
+		    margin:0;
+		    padding:0;
+		    text-align:left;
+		    text-transform:uppercase;
+		}
+
+		h4 {
+		    color: #333333 !important;
+		    font-family: Arial,Helvetica,sans-serif;
+		    font-size: 16px;
+		    font-weight: bold;
+		    line-height: 120%;
+		    margin-top: 0;
+			margin-bottom:5px;
+		    padding: 0;
+		    text-align: left;
+		}
+
+		h5 {
+		    color: #333333 !important;
+		    font-family: Arial,Helvetica,sans-serif;
+		    font-size: 14px;
+		    font-weight: bold;
+		    line-height: 150%;
+		    margin: 0 0 10px;
+		    padding: 0;
+		    text-align: left;
+		}
+
+		#templatePreheader{
+			background-color:#666666;
+			border-bottom:0;
+			background-image: url(http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/black_bg.gif);
+			background-repeat: repeat;
+			background-color: #666666;
+		}
+
+		.preheaderContent{
+			color:#FFFFFF !important;
+			font-family:Helvetica, Arial;
+			font-size:11px;
+			line-height:125%;
+			text-align:left;
+		}
+
+		.preheaderContent a:link,.preheaderContent a:visited,.preheaderContent a .yshortcuts {
+			color:#FFFFFF !important;
+			font-weight:normal;
+			text-decoration:none;
+		}
+
+		#templateHeader{
+			background-color:#FFFFFF !important;
+			border-bottom:0;
+			background-image: url(http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/purple_bg.gif);
+			background-repeat: repeat;
+			background-color: #563669;
+		}
+
+		.headerContent{
+			color:#202020;
+			font-family:Helvetica, Arial;
+			font-size:20px;
+			font-weight:bold;
+			line-height:100%;
+			padding-top:20px;
+			padding-right:0;
+			padding-bottom:20px;
+			padding-left:0;
+			text-align:left;
+			vertical-align:middle;
+			
+		}
+
 		.teaser div{
 			font-size:14px;
 			text-align:left;
+			font-family: Helvetica,Arial, sans-serif;
+			color: #FFFFFF;
 		}
 		.archive div,.archive div a:link,.archive div a:visited{
 			font-size:11px;
 			text-align:right;
 			text-decoration:none;
+			font-family: Helvetica,Arial, sans-serif;
+			color: #FFFFFF;
 		}
-		#headlineBar{
-			background:url(http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/purple_bg.gif) repeat #563669;
-			color:#FFFFFF;
-		}
-		.forward,.forward a{
-			color:#FFF;
-			text-decoration:none;
-			line-height:130%;
-			font-size:11px;
-			font-family:sans-serif;
-		}
-		.byline{
-			font-family:sans-serif;
-			font-size:18px;
-			line-height:130%;
-			text-align:left;
-			color:#FFFFFF;
-		}
-		.secondaryContent .byline,.secondaryContent .byline a{
+		.headerContent a:link,.headerContent a:visited,.headerContent a .yshortcuts {
 			color:#666666;
-			text-decoration:none;
-		}
-		h1{
-			font-family:Georgia, serif;
-			font-size:36px;
 			font-weight:normal;
-			line-height:150%;
-			text-align:left;
-			margin:0;
-			margin-top:5px;
-			margin-bottom:10px;
-			padding:0;
-			color:#FFFFFF;
+			text-decoration:underline;
 		}
-		h2{
-			font-family:Arial, Helvetica, sans-serif;
-			font-size:13px;
-			font-weight:bold;
-			line-height:100%;
-			text-align:left;
-			margin:0;
-			padding:0;
-			color:#4E2C66;
-			text-transform:uppercase;
-			letter-spacing:5px;
-		}
-		h3{
-			font-family:Arial, Helvetica, sans-serif;
-			font-size:13px;
-			font-weight:bold;
-			line-height:100%;
-			text-align:left;
-			margin:0;
-			padding:0;
-			color:#FFFFFF;
-			text-transform:uppercase;
-			letter-spacing:5px;
-		}
-		h4{
-			font-family:Arial, Helvetica, sans-serif;
-			font-size:14px;
-			font-weight:bold;
-			line-height:250%;
-			text-align:left;
-			margin:0;
-			margin-top:10px;
-			padding:0;
-			color:#333333;
-		}
-		h5{
-			font-family:Arial, Helvetica, sans-serif;
-			font-size:14px;
-			font-weight:bold;
-			line-height:150%;
-			text-align:left;
-			margin:0;
-			margin-bottom:10px;
-			padding:0;
-			color:#333333;
-		}
-		.secondaryContent h1,.secondaryContent h1 a{
-			color:#4E2C66;
-			text-decoration:none;
-		}
+		
 		.calendar table{
 			background-color:#FFFFFF;
 		}
+		
 		.calendar td{
 			text-align:center;
 		}
+		
 		.calendar span,.calendar span a,.calendar strong,.calendar strong a{
 			font-size:16px;
 			font-family:sans-serif;
 			text-decoration:none;
 			color:#4F2C66;
 		}
-		.secondaryContent .calendar table{
-			background-color:#4F2C66;
+		
+		.templateBodyContainer{
+			width:320px;
 		}
-		.secondaryContent .calendar span,.secondaryContent .calendar span a,.secondaryContent .calendar strong,.secondaryContent .calendar strong a{
-			font-size:16px;
-			font-family:sans-serif;
-			text-decoration:none;
+
+		#templateBody{
+			background-color:#FFFFFF;
+			border-top:0;
+			border-bottom:0;
+		}
+
+		.upperBodyTitleContentBlock{
+			border-top:1px solid #F47766;
+		}
+
+		.upperBodyTitleContent{
 			color:#FFFFFF;
-		}
-		.content{
-			line-height:160%;
 			font-family:Georgia, serif;
-			font-size:14px;
-			color:#666666;
+			font-size:36px;
+			font-weight:normal;
+			line-height:100%;
 			text-align:left;
 		}
-		.contentWhite{
-			line-height:160%;
-			font-family:Georgia, serif;
-			font-size:14px;
-			color:#FFFFFF;
-			text-align:left;
+
+		.upperBodyContentBlock{
+			background-color:#FFFFFF;
+			border-bottom:1px dotted #CCCCCC;
 		}
-		.contentWhite a:link,.contentWhite a:visited{
-			color:#A695B2;
-			text-decoration:none;
-		}
-		.latestNews div,.latestNews div a:link,.latestNews div a:visited{
-			line-height:100%;
-			font-family:Arial, Helvetica, sans-serif;
-			font-style:italic;
-			font-size:12px;
-			color:#4F2C66;
-			text-align:right;
-			text-decoration:none;
-		}
-		.videos div,.videos div a:link,.videos div a:visited{
-			line-height:100%;
-			font-family:Arial, Helvetica, sans-serif;
-			font-style:italic;
-			font-size:12px;
-			color:#FFFFFF;
-			text-align:right;
-			text-decoration:none;
-		}
-		.videoContent div{
+
+		.upperBodyContent{
 			color:#666666;
 			font-family:Georgia, serif;
 			font-size:14px;
 			line-height:150%;
+			padding-bottom:20px;
 			text-align:left;
 		}
-		.videoContent div a:link,.videoContent div a:visited{
-			color:#333333;
+
+		.upperBodyContent a:link,.upperBodyContent a:visited,.upperBodyContent a .yshortcuts {
+			color:#4E2C66;
 			font-weight:normal;
 			text-decoration:none;
 		}
-		.videoContent span,.videoContent span a:link,.videoContent span a:visited{
-			color:#4E2C66;
-			font-family:Arial, Helvetica, sans-serif;
-			font-size:12px;
+
+		.templateButton{
+			-moz-border-radius:5px;
+			-webkit-border-radius:5px;
+			background-color:#4CB2CB;
+			border:0;
+			border-radius:5px;
+		}
+
+		.templateButtonContent,.templateButtonContent a:link,.templateButtonContent a:visited,.templateButtonContent a .yshortcuts {
+			color:#FFFFFF;
+			font-family:Helvetica, Arial;
+			font-size:15px;
 			font-weight:bold;
+			line-height:100%;
+			text-align:center;
 			text-decoration:none;
 		}
-		#directions{
-			border:1px solid #d6d6d6;
+		.upperBodyContent img{
+			display:inline;
+			max-width:370px;
 		}
-		#directions div{
-			text-align:center;
-			font-family:sans-serif;
-			font-size:12px;
-			color:#555555;
-			line-height:160%;
-		}
-		#directions div strong,#directions div b{
-			font-size:13px;
-			font-family:sans-serif;
-		}
-		#directions .address div{
+
+		.lowerBodyTitleContent{
+			color:#FFFFFF;
+			font-family:Georgia, serif;
+			font-size:36px;
+			font-weight:normal;
+			line-height:100%;
+			padding-bottom:0;
 			text-align:left;
 		}
-		#list-description{
-			font-family:sans-serif;
-			font-size:11px;
-			color:#666666;
+
+		.lowerBodyContentBlock{
+			border-top:0;
 		}
-		#list-description a{
-			color:#4E2C66;
+
+		.lowerBodyContent{
+			color:#FFFFFF;
+			font-family:Georgia, serif;
+			font-size:14px;
+			line-height:150%;
+			padding-top:20px;
+			padding-bottom:20px;
+			text-align:left;
+		}
+		.lowerBodyContent2{
+			padding-top:10px;
+		}
+		.lowerBodyContent a:link,.lowerBodyContent a:visited,.lowerBodyContent a .yshortcuts {
+			color: #FFFFFF;
+    		text-decoration: underline;
 			font-weight:bold;
+		}
+
+	
+		.rightDatenum div{
+			color:#333333;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:20px;
+			font-weight:bold;
+			line-height:100%;
+			text-align:center;
+		}
+		
+		.rightDatemonth div{
+			color:#666666;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:11px;
+			text-transform:uppercase;
+			line-height:100%;
+			text-align:center;
+		}
+		
+		.rightDatetitle div{
+			color:#333333;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:13px;
+			font-weight:bold;
+			line-height:100%;
+			text-align:left;
+		}
+		
+		.rightDatetitle div a:link,.rightDatetitle div a:visited{
+			color:#333333;
+			text-decoration:none;
+		}
+		
+		.rightDatehour div{
+			color:#666666;
+			font-family:Georgia, serif;
+			font-size:14px;
+			line-height:100%;
+			text-align:left;
+		}
+
+		body,#bodyTable{
+			background-color:#FFFFFF;
+		}
+
+		#templateFooter{
+			border-top:0;
+		}
+		
+		#directions{
+			border:1px solid #CCCCCC;
+		}
+		
+		.border-right{
+			border-right:1px dotted #CCCCCC;
+		}
+
+		.footerContent{
+			color:#666666;
+			font-family:Helvetica, Arial;
+			font-size:12px;
+			line-height:150%;
+			padding-bottom:20px;
+			text-align:left;
+		}
+
+		.footerContent a:link,.footerContent a:visited,.footerContent a .yshortcuts {
+			color:#666666;
+			font-weight:normal;
 			text-decoration:underline;
 		}
-		#copyright{
-			font-family:sans-serif;
+		
+		.footerBottomContent{
 			color:#666666;
-			font-size:12px;
+			font-family:Helvetica, Arial;
+			font-size:11px;
+			line-height:120%;
+			padding-bottom:20px;
+			text-align:left;
 		}
+
+		.footerBottomContent a:link,.footerBottomContent a:visited,.footerBottomContent a .yshortcuts {
+			color:#4E2C66;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		
+		.footerContent img{
+			display:inline;
+			max-width:580px;
+		}
+		
 		.block{
 			display:block;
 		}
-		.border-right{
-			border-right:1px dotted #d6d6d6;
-		}
-		.leftColumnContent{
+		
+		#templateColumns{
 			background-color:#FFFFFF;
+			border-top:0;
+			border-bottom:0;
 		}
-		.leftColumnContent div{
-			color:#666666;
-			font-family:Georgia, serif;
-			font-size:14px;
-			line-height:150%;
-			text-align:left;
-		}
-		.leftColumnContent div a:link,.leftColumnContent div a:visited{
-			color:#333333;
-			font-weight:normal;
-			text-decoration:none;
-		}
-		.leftColumnContent span,.leftColumnContent span a:link,.leftColumnContent span a:visited{
-			color:#4E2C66;
-			font-family:Arial, Helvetica, sans-serif;
-			font-size:12px;
-			font-weight:bold;
-			text-decoration:none;
-		}
-		.leftColumnContent img{
-			display:inline;
-			height:auto;
-		}
-		.centerColumnContent{
-			background-color:#FFFFFF;
-		}
-		.centerColumnContent div{
-			color:#666666;
-			font-family:Georgia, serif;
-			font-size:14px;
-			line-height:150%;
-			text-align:left;
-		}
-		.centerColumnContent div a:link,.centerColumnContent div a:visited{
-			color:#333333;
-			font-weight:normal;
-			text-decoration:none;
-		}
-		.centerColumnContent span,.centerColumnContent span a:link,.centerColumnContent span a:visited{
-			color:#4E2C66;
-			font-family:Arial, Helvetica, sans-serif;
-			font-size:12px;
-			font-weight:bold;
-			text-decoration:none;
-		}
-		.centerColumnContent img{
-			display:inline;
-			height:auto;
-		}
-		.rightColumnContent{
-			background-color:#FFFFFF;
-		}
-		.rightColumnContent div{
-			color:#666666;
-			font-family:Georgia, serif;
-			font-size:14px;
-			line-height:150%;
-			text-align:left;
-		}
-		.rightColumnContent div a:link,.rightColumnContent div a:visited{
-			color:#333333;
-			font-weight:normal;
-			text-decoration:none;
-		}
-		.rightColumnContent span,.rightColumnContent span a:link,.rightColumnContent span a:visited{
-			color:#4E2C66;
-			font-family:Arial, Helvetica, sans-serif;
-			font-size:12px;
-			font-weight:bold;
-			text-decoration:none;
-		}
-		.rightColumnContent img{
-			display:inline;
-			height:auto;
-		}
-</style></head>
 
-<body>
-<table width="100%" border="0" cellpadding="0" cellspacing="0" id="backgroundTable">
-	<tr>
-    	<td valign="top">
-        	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		.columnTitleContent h2{
+			color: #4E2C66;
+			font-family: Arial,Helvetica,sans-serif;
+		    font-size: 13px;
+		    font-weight: bold;
+		    line-height: 100%;
+		    margin: 0;
+		    padding: 0;
+		    text-align: left;
+		    text-transform: uppercase;
+		}
+
+		.latestNews div, .latestNews div a:link, .latestNews div a:visited {
+		    color: #4F2C66;
+		    font-family: Arial,Helvetica,sans-serif;
+		    font-size: 12px;
+		    font-style: italic;
+		    line-height: 100%;
+		    text-align: right;
+		    text-decoration: none;
+		}
+
+		.columnTitleContent a:link,.columnTitleContent a:visited,.columnTitleContent a .yshortcuts {
+			color:#202020;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+	
+		.ColumnContent{
+			color:#202020;
+			font-family:Verdana;
+			font-size:12px;
+			line-height:150%;
+			text-align:left;
+			display:block;
+		}
+	
+		.ColumnContent a:link,.ColumnContent a:visited,.ColumnContent a .yshortcuts {
+			color:#333333;
+			font-weight:normal;
+			text-decoration:none;
+		}
+
+		.ColumnContent img{ 
+			display:inline;
+			max-width:200px;
+		}
+
+		.ColumnContent div {
+		    color: #666666;
+		    font-family: Georgia,serif;
+		    font-size: 14px;
+		    line-height: 150%;
+		    text-align: left;
+		    padding-bottom: 0;
+		}
+		.ColumnContent a:link,.ColumnContent a:visited
+	{
+			color:#4E2C66;
+			font-weight:bold;
+			text-decoration:none;
+		}
+
+		.videos div, .videos div a:link, .videos div a:visited {
+		    color: #FFFFFF;
+		    font-family: Arial,Helvetica,sans-serif;
+		    font-size: 12px;
+		    font-style: italic;
+		    line-height: 100%;
+		    text-align: right;
+		    text-decoration: none;
+		}
+
+		.videoContent div {
+		    color: #666666;
+		    font-family: Georgia,serif;
+		    font-size: 14px;
+		    line-height: 150%;
+		    text-align: left;
+		}
+
+		.videoContent span, .videoContent span a:link, .videoContent span a:visited {
+		    color: #4E2C66;
+		    font-family: Arial,Helvetica,sans-serif;
+		    font-size: 12px;
+		    font-weight: bold;
+		    text-decoration: none;
+		}
+
+	@media only screen and (max-width: 480px){
+
+
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+	/*
+	@tab Mobile Styles
+	*/
+		body{
+			width:auto !important;
+		}
+
+		table[class=templateBodyContainer]{
+			width:100% !important;
+		}
+
+		table[class=templateSidebarContainer]{
+			width:100% !important;
+		}
+
+		table[class=templateContainer]{
+			width:100% !important;
+		}
+		
+		table[id=templateColumns]{
+			width:100% !important;
+		}
+
+		h1{
+			font-size:20px !important;
+			line-height:100% !important;
+		}
+
+		h2{
+			font-size:14px !important;
+			line-height:100% !important;
+		}
+
+		h3{
+			line-height:100% !important;
+		}
+
+		h4{
+			font-size:16px !important;
+			line-height:100% !important;
+		}
+
+		td[class=preheaderContent] {
+			font-size: 9px;
+		}
+
+		table[id=templatePreheader]{
+			display:none !important;
+		}
+
+		img[id=headerImage]{
+			height:auto !important;
+			max-width:240px !important;
+			width:100% !important;
+		}
+
+		td[class=headerContent]{
+			font-size:20px !important;
+			line-height:150% !important;
+			padding-top:20px !important;
+			padding-right:10px !important;
+			padding-bottom:20px !important;
+			padding-left:10px !important;
+		}
+
+		td[class=upperBodyTitleContent]{
+			font-size:14px !important;
+			line-height:125% !important;
+			padding-right:10px;
+			padding-left:10px;
+		}
+
+		img[class=upperBodyImage]{
+			height:auto !important;
+			max-width:370px !important;
+			width:100% !important;
+		}
+
+		td[class=upperBodyContent]{
+			font-size:14px !important;
+			line-height:125% !important;
+			padding-right:10px;
+			padding-left:10px;
+		}
+
+		td[class=lowerBodyTitleContent]{
+			font-size:20px !important;
+			line-height:125% !important;
+			padding-right:10px;
+			padding-left:10px;
+		}
+
+		img[class=lowerBodyImage]{
+			height:auto !important;
+			max-width:580px !important;
+			width:100% !important;
+		}
+
+		td[class=lowerBodyContent]{
+			font-size:14px !important;
+			line-height:125% !important;
+			padding-right:10px;
+			padding-left:10px;
+		}
+
+		
+		table[id=latestNews] {
+			width:100%
+		}
+
+		td[class=footerContent]{
+			font-size:10px !important;
+			line-height:130% !important;
+		}
+
+		td[class=footerContent] a{
+			display:block !important;
+		}
+		
+		td[class=calendar] span{
+			font-size:10px !important;
+		}		
+
+		td[class=calendar] strong{
+			font-size:10px !important;
+		}		
+
+		table[class=columnTable]{
+			width:100% !important;
+		}
+		
+		td[class=remove] {
+			display:none;	
+		}
+
+		td[class=ColumnContent]{
+			font-size:16px !important;
+			line-height:125% !important;
+			width:95%!important;
+			margin-left: 2%!important;
+			padding:2% 0!important;
+
+		}
+	
+		td[class=ColumnContent] td {
+			float:left;
+			display:block;
+			width:100%;	
+		}
+
+		table[class=footerContent] td {
+
+			font-size:9px!important;
+			line-height:130% !important;
+			padding: 5px!important;
+		}
+
+		td[id=videoWrap] td {
+			float:left;
+			width:96%;
+			padding:2%;
+		}
+
+		table[id=videoWrap] td td {
+			padding: 0!important;
+		}
+}		
+</style></head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
             	<tr>
-                	<td id="topBar" background="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/black_bg.gif">
-                    	<table width="600" align="center" border="0" cellspacing="0" cellpadding="10">
+                	<td align="center" valign="top">
+                    	<table border="0" cellpadding="0" cellspacing="0" width="100%">
                         	<tr>
-                            	<td class="teaser">
-                                	<div mc:edit="teaser">Include Teaser line here</div>
+                            	<td align="center" valign="top">
+                                    <table border="0" cellpadding="10" cellspacing="0" width="100%" id="templatePreheader">
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0" class="templateContainer">
+                                                    <tr>
+                                                        <td class="teaser"><div mc:edit="teaser">Include Teaser line here</div></td>
+                                                        <td class="archive" style="padding-right: 20px;"><div mc:edit="archive"><a href="*|ARCHIVE|*">View this email online</a></div></td>
+                                                        <td width="70" align="right" class="archive"><div>*|FACEBOOK:LIKE|*</div></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
                                 </td>
-                                <td class="archive">
-                                	<div mc:edit="archive"><a href="*|ARCHIVE|*">View this email online</a></div>
-                                </td>
-                                <td width="70" align="right" class="archive"><div>*|FACEBOOK:LIKE|*</div></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>    
-                    <td valign="top" background="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/purple_bg.gif" id="headlineBar">
-                   		<table width="580" align="center" border="0" cellspacing="0" cellpadding="0">
-                        	<tr>
-                            	<td height="100" valign="middle">
-                                	<a href="http://www.acu.edu/"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/acu_header.png" width="433" height="61" alt="Abilene Christian University" border="0" class="block"></a>
-                                </td>
-                                <td width="35" align="left"><a href="*|FORWARD|*" mc:hideable=""><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/envelope.jpg" width="24" height="26" alt="" border="0" class="block" align="left"></a></td>
-                                <td class="forward" width="80" mc:hideable=""><a href="*|FORWARD|*">Forward this email &raquo;</a></td>
-                            </tr>
-                        </table>        
-                        <table width="580" align="center" border="0" cellspacing="0" cellpadding="0" mc:repeatable="">
-                            <tr>
-                            	<td colspan="2" valign="top" height="30"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/ruler580violet.gif" width="580" height="4" alt=""></td>
                             </tr>
                             <tr>
-                            	<td>
-                                    <h1 mc:edit="headline">
-                                    	Main title goes here.
-                                    </h1>
-                                </td>
-                                <td width="80" align="right" valign="top" class="calendar">
-                                	<table width="60" border="0" cellspacing="0" cellpadding="10" mc:hideable="">
-                                  <tr>
-                                    <td bgcolor="#FFFFFF">
-                                    	<table width="100%" border="0" align="right" cellpadding="0" cellspacing="0">
-                                    	<tr>
-                                        	<td width="40" height="20" valign="middle"><span mc:edit="month1">JAN</span></td>
+                                <td align="center" valign="top">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0" class="templateContainer">
+                                                    <tr>
+                                                        <td width="75%" class="headerContent">
+                                                            <img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/acu_header.png" name="headerImage" id="headerImage" style="max-width:580px;" mc:label="header_image" mc:edit="header_image" mc:allowdesigner="" mc:allowtext="">
+                                                        </td>
+                                                        <td width="10%" align="right"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/envelope.jpg" alt="" width="24" height="26" border="0"></td>
+                                                        <td width="15%" class="preheaderContent"><a href="*|FORWARD|*">&nbsp;&nbsp;Forward<br>&nbsp;&nbsp;this email</a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
                                         </tr>
                                         <tr>
-                                        	<td height="20" valign="middle"><strong mc:edit="day1">1</strong></td>
+                                          	<td align="center" valign="top">
+                                       			<table border="0" cellpadding="0" cellspacing="0" class="templateContainer">
+                                                    <tr mc:repeatable="">
+                                                        <td align="center" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                <tr>
+                                                                    <td align="center" valign="top">
+                                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="lowerBodyTitleContentBlock">
+                                                                        	<tr>
+																				<td valign="top" width="100%" height="30" colspan="2">
+																					<img width="100%" height="4" alt="" src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/ruler580violet.gif">
+																				</td>
+																			</tr>
+                                                                            <tr>
+                                                                              <td width="80%" valign="top" class="lowerBodyTitleContent" mc:edit="lower_body_title">
+                                                                                  	<h1 mc:edit="headline"> Main title goes here. </h1>
+                                                                                </td>
+                                                                                <td width="20%" align="right" valign="bottom" class="calendar" mc:edit="lower_body_date">
+                                                                                	<table width="50%" border="0" cellpadding="10" cellspacing="0" mc:hideable="">
+                                                                                        <tr>
+                                                                                            <td bgcolor="#FFFFFF">
+                                                                                                <table width="100%" border="0" align="right" cellpadding="0" cellspacing="0">
+                                                                                                <tr>
+                                                                                                    <td valign="middle"><span mc:edit="month1">JAN</span></td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td valign="middle"><strong mc:edit="day1">1</strong></td>
+                                                                                                </tr>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                  </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center" valign="top">
+                                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="lowerBodyContentBlock">
+                                                                            <tr>
+                                                                                <td class="lowerBodyContent lowerBodyContent2" style="padding-bottom:0;">
+                                                                                    <img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/placeholder_580.gif" style="max-width:580px;" class="lowerBodyImage" mc:label="body_image" mc:edit="body_image" mc:allowtext="">
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td valign="top" class="lowerBodyContent" mc:edit="lower_body_maincontent">
+                                                                                    <h2>Subtitle here</h2>
+                                                                                    Generitech is 100% committed to creating tools and solutions that improve the way you do business. We want to hear from loyal customers like you. Follow us on Twitter at <a href="http://www.mailchimp.com/" target="_blank">@generitech</a> and let us know what you think about our products and around-the-clock support. Your feedback makes us better.
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>   	
+                                            </td>
                                         </tr>
-                                    	</table>
-                                    </td>
-                                  </tr>
-                                </table>
+                                    </table>
+                                 </td>
+                            </tr>
+                            <tr>
+                            	<td align="center" valign="top" style="padding-top:25px;">
+                                	<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
+                                    	<tr>
+                                        	<td align="center" valign="top">
+                                            	<table border="0" cellpadding="0" cellspacing="0" width="580" id="templateColumns">
+                                                    <tr>
+			                                			<td valign="top" align="center">
+						                                	<!-- BEGIN COLUMNS -->
+						                                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+						                                    	
+						                                    		<tr>
+						                                        		<td valign="top">
+						                                            		<table width="100%" cellspacing="0" cellpadding="0" border="0">
+						                                                		
+						                                                			<tr>
+							                                                    		<td valign="top" align="center">
+							                                                        	    <table width="580" cellspacing="0" cellpadding="10" border="0" bgcolor="#E5DFE9" id="latestNews">
+							                                                            	    
+							                                                            	    	<tr>
+							                                                                	    	<td mc:edit="column_title_content" width="70%" class="columnTitleContent">
+							                                                                	    		<h2 mc:edit="latestnews_title">LATEST NEWS</h2>
+							                                                                	    	</td>
+																		                    	    	<td class="latestNews">
+																	                    	    		  <div mc:edit="latestnews_link"><a href="#">read more news »</a></div>
+																		                    	    	</td>
+							                                                               			</tr>
+							                                                            		
+							                                                        		</table>
+							                                                       		 </td>
+							                                                    	</tr>
+							                                                	
+						                                            		</table>
+						                                            	</td>
+						                                       		</tr>
+							                                    	<tr mc:repeatable="">
+							                                        	<td valign="top" align="center" style="padding-top:15px">
+                                                                            
+								                                                        	<table width="100%" cellspacing="0" cellpadding="0" border="0" align="left" class="columnTable" mc:hideable="" style="border-collapse: collapse;">
+								                                                            	
+								                                                            		<tr>
+								                                                                		<td valign="top" class="ColumnContent" bgcolor="#FFFFFF">
+                                                                                                        <table cellpadding="0" cellspacing="0" border="0" style="border-bottom:1px solid #dddddd">
+                                                                                                        
+                                                                                                        <tr><td valign="top" width="190">
+												                                                            <img mc:edit="tiwc200_image00" mc:label="image" style="max-width:170px; margin-bottom:10px;" src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/placeholder_170.gif" align="left" class="block">
+                                                                                                            </td>                                                                                              <td valign="top">
+												                                                            <div mc:edit="tiwc200_content00">
+												 	                                                            <h4 class="h4">Heading 4</h4>
+	                                                                <strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks.
+                <br><a href="#">Read more »</a>
+												                                                            </div>
+                                                                                                            </td></tr>
+                                                                                                            <tr><td colspan="2">&nbsp;</td></tr>
+                                                                                                            </table>
+								                                                                    	</td>
+								                                                               	 	</tr>
+                                                                                                    <tr><td>&nbsp;</td></tr>
+								                                                            	
+								                                                            </table>
+                                                                                          
+							                                                        		</td>
+							                                                	    </tr>
+                                                                                    
+                                                                                    
+							                                                	
+							                                            	</table>
+							                                            </td>
+							                                        </tr>
+						                                	    
+						                                	</table>
+						                                    <!-- END COLUMNS -->
+						                                </td>
+			                                		</tr>
+			                                		<tr mc:repeatable="">
+			                                			<td align="center" valign="top">
+				                                			<table border="0" cellpadding="0" cellspacing="0" class="templateContainer">
+												            	
+												            		<tr>
+													            		<td height="25" bgcolor="#4F2C66">
+													                  		<table width="100%" cellspacing="0" cellpadding="10" border="0">
+													                     		
+													                     			<tr>
+													                        			<td width="70%">
+													                       	    			<div mc:edit="video_title"><h3>VIDEO OF THE MONTH</h3></div>
+													                        			</td>
+													                        			<td class="videos">
+													                       				 	<div mc:edit="latestnews_link"><a href="#">view more videos »</a></div>
+													                       				 </td>
+													                        		</tr>
+													                    		
+													                    	</table>
+													                	</td>
+												          	  		</tr>
+												            		<tr>
+												            			<td height="10"><img width="10" height="10" border="0" class="block" src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/blank.gif"></td>
+												          			</tr>
+												            		<tr>
+												            	  		<td height="25" bgcolor="#EEEEEE" id="videoWrap">
+												                  			<table width="100%" cellspacing="0" cellpadding="10" border="0">
+												                      			
+												                      				<tr>
+												                        				<td valign="top">
+												                        					<table width="100%" cellspacing="0" cellpadding="10" border="0">
+												                              						<tr>
+																		                                <td class="videoContent">
+																		                                	<div mc:edit="tiwc200_content04">
+																		 	                                	<h5 class="h5">Heading 5</h5>
+																		                                	  	Lorem ipsum dolor sit amet, consectetur adipiscing elit porttitor at varius magna luctus.
+																												<span><br><br>View video »</span>
+																		                                    </div>
+																		                                </td>
+												                              						</tr>
+												                            					
+												                            				</table>
+												                        				</td>
+												                        				<td width="200" valign="top"><img mc:edit="video" mc:label="image" style="max-width:200px;" src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/placeholder_200.gif"></td>
+												                    				</tr>
+												                    			
+												                    		</table>
+												                    	</td>
+												          	  		</tr>
+												            		<tr>
+												            			<td height="25">&nbsp;</td>
+												          	  		</tr>
+												           		
+												           	</table>
+												        </td>
+			                                		</tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
                                 </td>
                             </tr>
                             <tr>
-                            	<td colspan="2">
-                                <span>
-                            	<!-- // Begin Module: Standard Header Image \\ -->
-                                <img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/placeholder_580.gif" style="max-width:580px;" mc:label="main_image" mc:edit="main_image">
-                                <br><br>
-                                <!-- // End Module: Standard Header Image \\ -->
-                                </span>
-                                <span class="contentWhite" mc:edit="content0">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet dolor lorem, nec interdum nunc. Donec sit amet augue ligula. Duis eu purus sit amet sapien tempus vulputate. Vestibulum et neque augue, eu ornare turpis. Donec eros tellus, dignissim vel venenatis vel, dictum vel eros. <a href="#">Mauris aliquet consequat risus</a>, vel consectetur urna ullamcorper non. Donec porttitor nisi et enim laoreet dignissim. Phasellus lobortis molestie augue convallis facilisis. Vivamus iaculis sodales lorem, sed viverra enim ornare congue. Integer varius aucvestibulum. </span>
-                                </td>
-                          </tr>
-                            <tr><td height="20" colspan="3">&nbsp;</td></tr>
-                      </table>
-                  </td>
-                </tr>
-            </table>
-            <table width="580" border="0" cellpadding="0" cellspacing="0" align="center">
-            	<tr>
-                	<td height="25">&nbsp;</td>
-                </tr>
-            	<tr>
-            	  <td height="25" bgcolor="#E5DFE9">
-                  	<table width="580" border="0" cellspacing="0" cellpadding="10">
-                      <tr>
-                        <td width="320">
-                        	<div><h2>LATEST NEWS</h2></div>
-                        </td>
-                        <td class="latestNews">
-                        	<div><a href="#">read more news &raquo;</a></div>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-          	  </tr>
-              <tr>
-            	  <td height="25">&nbsp;</td>
-          	  </tr>
-              <tr>
-                <td height="25">
-                <table border="0" cellpadding="0" cellspacing="0">
-                	<tr>
-                                        	<td valign="top" width="170" class="leftColumnContent">
-                                            
-                                                <!-- // Begin Module: Top Image with Content \\ -->
-                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                                                    <tr mc:repeatable="">
-                                                        <td valign="top">
-                                                            <img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/placeholder_170.gif" style="max-width:170px;" mc:label="image" mc:edit="tiwc200_image00">
-                                                            <div mc:edit="tiwc200_content00">
- 	                                                           <h4 class="h4">Heading 4</h4>
-                                                               <strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
-														      <span><br><br>Read more &raquo;</span>
-                                                            </div>
+                            	<td align="center" valign="top">
+                                	<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
+                                    	<tr>
+                                        	<td align="center" valign="top" style="padding-bottom:40px;">
+                                            	<table border="0" cellpadding="0" cellspacing="0" class="templateContainer">
+                                                	<tr>
+                                                    	<td valign="top" class="footerContent" mc:edit="footer_content00">
+                                                        	<table width="100%" cellpadding="0" cellspacing="0" id="directions">
+                                                            	<tr>
+                                                                	<td>
+                                                        				<table width="100%" align="center" cellpadding="15" cellspacing="0" class="footerContent">
+                                                                            <tr>
+                                                                                <td align="center" valign="middle" bgcolor="#FFFFFF" class="border-right">
+                                                                                    <a href="http://www.acu.edu/"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/acu_footer.gif" width="59" height="41" alt="ACU" border="0" class="block"></a>
+                                                                                </td>
+                                                                                <td bgcolor="#FFFFFF" class="border-right address" mc:edit="address">
+                                                                                    <strong>Abilene Christian University</strong><br>Abilene, Texas 79699
+                                                                                </td>
+                                                                                <td bgcolor="#FFFFFF" class="border-right" mc:edit="operator">
+                                                                                    Campus Operator<br><strong>325-674-2000</strong>
+                                                                                </td>
+                                                                                 <td bgcolor="#FFFFFF" mc:edit="phone">
+                                                                                    Admissions Helpline<br><strong>800-460-6228</strong>
+                                                                                  </td>
+                                                                                </tr>
+                                                                         </table>
+                                                             		</td>
+                                                             	</tr>
+                                                             </table>
                                                         </td>
                                                     </tr>
+                                                	<tr>
+                                                	  <td valign="top">
+                                                      	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                          <tr>
+                                                            <td width="70%" class="footerContent" mc:edit="copyright">Copyright © 2012. Abilene Christian University. All rights reserved.</td>
+                                                            <td width="30%" rowspan="2" align="right" valign="top" mc:edit="social"><a href="https://plus.google.com/118318959013153906674" class=""><img src="http://ssl.gstatic.com/images/icons/gplus-32.png" alt="+1" width="24" height="24" border="0"></a>&nbsp;<a href="http://www.twitter.com/acuedu"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/tw.jpg" alt="Tw" width="24" height="24" border="0"></a>&nbsp;<a href="http://www.facebook.com/abilenechristian"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/fb.jpg" alt="Fb" width="24" height="24" border="0"></a>&nbsp;<a href="http://www.linkedin.com/groups?viewMembers=&amp;gid=1910637&amp;sik=1281686963691"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/in.jpg" alt="In" width="24" height="24" border="0"></a>&nbsp;<a href="http://www.youtube.com/acu"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/yt.jpg" alt="YT" width="24" height="24" border="0"></a></td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td width="70%" valign="top" class="footerBottomContent" mc:edit="bottom">
+                                                        	You are receiving this email because you opted-in at our website. If you want to be removed from future ACU emails.<br>
+                                                        	<a href="*|UNSUB|*">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*">update subscription preferences</a>
+                                                        	</td>
+                                                          </tr>
+                                                        </table>
+                                                      </td>
+                                              	  </tr>
                                                 </table>
-                                                <!-- // End Module: Top Image with Content \\ -->
-                                            
                                             </td>
-                                            <td valign="top" width="35">&nbsp;</td>
-                                        	<td valign="top" width="170" class="centerColumnContent">
-                                            
-                                                <!-- // Begin Module: Top Image with Content \\ -->
-                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                                                    <tr mc:repeatable="">
-                                                        <td valign="top">
-                                                            <img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/placeholder_170.gif" style="max-width:170px;" mc:label="image" mc:edit="tiwc200_image01">
-                                                            <div mc:edit="tiwc200_content01">
- 	                                                           <h4 class="h4">Heading 4</h4>
-                                                               <strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
-                                                               <span><br><br>Read more &raquo;</span>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <!-- // End Module: Top Image with Content \\ -->
-                                            
-                                            </td>
-                                            <td valign="top" width="35">&nbsp;</td>
-                                        	<td valign="top" width="170" class="rightColumnContent">
-                                            
-                                                <!-- // Begin Module: Top Image with Content \\ -->
-                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                                                    <tr mc:repeatable="">
-                                                        <td valign="top">
-                                                            <img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/placeholder_170.gif" style="max-width:170px;" mc:label="image" mc:edit="tiwc200_image02">
-                                                            <div mc:edit="tiwc200_content02">
- 	                                                           <h4 class="h4">Heading 4</h4>
-                                                               <strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
-                                                               <span><br><br>Read more &raquo;</span>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <!-- // End Module: Top Image with Content \\ -->
-                                            
-                                            </td>
-                   	  </tr>
-                	<tr>
-                	  <td height="25" colspan="5" valign="top" class="leftColumnContent">&nbsp;</td>
-               	  </tr>
-                </table>
-                </td>
-              </tr>
-              
-              
-           	</table>
-            <table width="580" border="0" cellpadding="0" cellspacing="0" align="center">
-            	<tr>
-            	  <td height="25" bgcolor="#4F2C66">
-                  	<table width="580" border="0" cellspacing="0" cellpadding="10">
-                      <tr>
-                        <td width="320">
-                       	  <div><h3>VIDEO OF THE MONTH</h3></div>
-                        </td>
-                        <td class="videos">
-                       	  <div><a href="#">view more videos &raquo;</a></div>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-          	  	</tr>
-            	<tr>
-            	  <td height="10"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/blank.gif" width="10" height="10" border="0" class="block"></td>
-          	  </tr>
-            	<tr>
-            	  <td height="25" bgcolor="#EEEEEE">
-                  	<table width="580" border="0" cellspacing="0" cellpadding="10">
-                      <tr>
-                        <td valign="top">
-                        	<table width="100%" border="0" cellspacing="0" cellpadding="10">
-                              <tr>
-                                <td class="videoContent">
-                                	<div mc:edit="tiwc200_content03">
- 	                                	<h5 class="h5">Heading 5</h5>
-                                	  	Lorem ipsum dolor sit amet, consectetur adipiscing elit porttitor at varius magna luctus.
-										<span><br><br>View video &raquo;</span>
-                                    </div>
-                                </td>
-                              </tr>
-                            </table>
-                        </td>
-                        <td width="200" valign="top"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/placeholder_200.gif" style="max-width:200px;" mc:label="image" mc:edit="video"></td>
-                      </tr>
-                    </table>
-                  </td>
-          	  </tr>
-            	<tr>
-            	  <td height="25">&nbsp;</td>
-          	  </tr>
-           	</table>    
-            <table width="580" border="0" cellpadding="0" cellspacing="0" id="footer" align="center">
-            	<tr>
-            		<td>
-
-                    	<table width="100%" id="directions" cellpadding="15" cellspacing="0" align="center">
-                        	<tr>
-                            	<td class="border-right" align="center" valign="middle">
-                                	<a href="http://www.acu.edu/"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/acu_footer.gif" width="59" height="41" alt="ACU" border="0" class="block"></a>
-                                </td>
-                                <td class="border-right address">
-                                	<div mc:edit="address"><strong>Abilene Christian University</strong><br>
-                                    Abilene, Texas 79699</div>
-                                </td>
-                                <td class="border-right">
-                                <div mc:edit="operator">Campus Operator<br>
-                                <strong>325-674-2000</strong></div>
-                                </td>
-                                <td>
-                                <div mc:edit="admissions">Admissions Helpline<br>
-                                <strong>800-460-6228</strong></div>
+                                        </tr>
+                                    </table>
                                 </td>
                             </tr>
                         </table>
-                    </td>
-            	</tr>
-                <tr>
-                	<td height="75" valign="middle">
-                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                      <tr>
-                        <td><div id="copyright" mc:edit="copyright">Copyright © 2012. Abilene Christian University. All rights reserved.</div></td>
-                        <td width="150" align="right"><a href="https://plus.google.com/118318959013153906674"><img src="http://ssl.gstatic.com/images/icons/gplus-32.png" alt="+1" width="24" height="24" border="0"></a>&nbsp;<a href="http://www.twitter.com/acuedu"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/tw.jpg" alt="Tw" width="24" height="24" border="0"></a>&nbsp;<a href="http://www.facebook.com/abilenechristian"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/fb.jpg" alt="Fb" width="24" height="24" border="0"></a>&nbsp;<a href="http://www.linkedin.com/groups?viewMembers=&amp;gid=1910637&amp;sik=1281686963691"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/in.jpg" alt="In" width="24" height="24" border="0"></a>&nbsp;<a href="http://www.youtube.com/acu"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/yt.jpg" alt="YT" width="24" height="24" border="0"></a></td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-                <tr>
-                	<td height="30" valign="top"><img src="http://gallery.mailchimp.com/30e52e6e60a1fd7c57f2fd55b/images/dots_ruler.gif" width="576" height="1" alt=""></td>
-                </tr>       
-                <tr>
-                	<td><div id="list-description" mc:edit="listdescription">You are receiving this email because you opted-in at our website. If you want to be removed from future ACU emails, <a href="*|UNSUB|*">unsubscribe here</a>. <a href="*|UPDATE_PROFILE|*">Update subscription preferences</a>.</div>
-                    </td>
-                </tr>                    
-                <tr><td>&nbsp;</td></tr>
-            </table>
-        </td>
-	</tr>
-</table>
-</body>
+        </center>
+    </body>
 </html>
