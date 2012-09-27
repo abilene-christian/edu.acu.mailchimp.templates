@@ -11,9 +11,14 @@
 /*
 		@tab Preview
 		*/
-		#outlook a{
-			/*@tab Preview*/padding:0;
-		}
+/* Client-specific Styles */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
+			body{width:100% !important;} /* Force Hotmail to display emails at full width */
+			body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
+
+			/* Reset Styles */
+			body{margin:0; padding:0;}
+			img{border:none; font-size:14px; font-weight:bold; height:auto; line-height:100%; outline:none; text-decoration:none; text-transform:capitalize;}
 		.ReadMsgBody{
 			width:100%;
 		}
